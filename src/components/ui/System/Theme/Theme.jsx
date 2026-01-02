@@ -24,6 +24,8 @@ function getFallbackThemeTokens() {
         primary: v('--bhcm-text-primary', 'currentColor'),
         secondary: v('--bhcm-text-secondary', 'currentColor'),
         muted: v('--bhcm-text-muted', 'currentColor'),
+        danger: v('--bhcm-text-danger', 'currentColor'),
+        warning: v('--bhcm-text-warning', 'currentColor'),
         inverse: v('--bhcm-text-inverse', 'currentColor'),
         disabled: v('--bhcm-text-disabled', 'currentColor'),
       },
@@ -41,6 +43,8 @@ function getFallbackThemeTokens() {
         disabled: v('--bhcm-action-disabled', 'transparent'),
       },
       status: {
+        success: v('--bhcm-status-success', 'currentColor'),
+        warning: v('--bhcm-status-warning', 'currentColor'),
         error: v('--bhcm-status-error', 'currentColor'),
         errorHover: v('--bhcm-status-error-hover', 'currentColor'),
       },

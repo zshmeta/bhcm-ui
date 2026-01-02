@@ -1,5 +1,4 @@
-import React, { forwardRef } from 'react';
-import PropTypes from 'prop-types';
+import { forwardRef } from 'react';
 import { StyledButton, ButtonIconWrapper } from './Button.styles';
 
 
@@ -22,7 +21,7 @@ export const BUTTON_SIZES = ['xs', 'sm', 'md', 'lg', 'xl', '2xl'];
 const Button = forwardRef(function Button(props, ref) {
   const {
     children,
-    as, // Polymorphic prop / Prop polymorphique (ex: 'a', 'div')
+    as, // Polymorphic prop /
     href,
     kind = 'primary',
     size = 'md',
@@ -34,11 +33,11 @@ const Button = forwardRef(function Button(props, ref) {
     iconDescription,
     hasIconOnly = false,
     
-    // Tooltip Logic (For generic integration) / Logique d'infobulle
+    // Tooltip Logic (For generic integration) 
     tooltipPosition = 'top',
     tooltipAlignment = 'center',
     
-    // Events / Événements
+    // Events 
     onClick,
     onMouseEnter,
     onMouseLeave,
@@ -47,14 +46,8 @@ const Button = forwardRef(function Button(props, ref) {
     ...rest
   } = props;
 
-  // --------------------------------------------------------------------------
-  // Logic / Logique
-  // --------------------------------------------------------------------------
 
-  /**
-   * Validation: Icon-only buttons MUST have a description for screen readers.
-   * Validation : Les boutons avec icône seule DOIVENT avoir une description pour les lecteurs d'écran.
-   */
+ 
   const isIconOnly = hasIconOnly || (children === null || children === undefined);
 
   if (isIconOnly && !iconDescription) {
@@ -64,12 +57,6 @@ const Button = forwardRef(function Button(props, ref) {
     );
   }
 
-  // --------------------------------------------------------------------------
-  // Render / Rendu
-  // --------------------------------------------------------------------------
-  
-  // Note: We pass props with `$` prefix to styled-components to prevent them from leaking to the DOM.
-  // Note : Nous passons les props avec le préfixe `$` aux styled-components pour éviter qu'elles ne fuient dans le DOM.
   return (
     <StyledButton
       ref={ref}
@@ -90,25 +77,28 @@ const Button = forwardRef(function Button(props, ref) {
       type={href ? undefined : (props.type || 'button')}
       role={href ? 'button' : undefined} // Ensures <a> tags behave like buttons for screen readers
       
-      // Event forwarding / Transfert d'événements
+      // Event forwarding 
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onFocus={onFocus}
       onBlur={onBlur}
       {...rest}
     >
-      {/* 1. Leading Icon / Icône principale */}
-      {/* We check !isIconOnly to avoid rendering it twice / On vérifie !isIconOnly pour éviter le double rendu */}
+
+      {/* As Icon  */}
+
       {Icon && !isIconOnly && (
         <ButtonIconWrapper side="left">
            <Icon aria-hidden="true" focusable="false" />
         </ButtonIconWrapper>
       )}
 
-      {/* 2. Text Content / Contenu textuel */}
+      {/* with Children */}
+
       {!isIconOnly && children}
 
-      {/* 3. Icon Only Mode / Mode Icône Seule */}
+      {/* 3. Icon Only Mode */}
+
       {isIconOnly && Icon && (
         <Icon aria-hidden="true" focusable="false" />
       )}
@@ -116,94 +106,9 @@ const Button = forwardRef(function Button(props, ref) {
   );
 });
 
-// ============================================================================
-// Display Name & Definitions
-// ============================================================================
 
 Button.displayName = 'Button';
 
-// ============================================================================
-// PropTypes (Documentation & Validation)
-// ============================================================================
 
-Button.propTypes = {
-  /**
-   * Specify how the button itself should be rendered.
-   * Spécifiez comment le bouton lui-même doit être rendu.
-   */
-  as: PropTypes.oneOfType([
-    PropTypes.func,
-    PropTypes.string,
-    PropTypes.elementType,
-  ]),
-
-  /**
-   * Specify the content of your Button.
-   * Spécifiez le contenu de votre bouton.
-   */
-  children: PropTypes.node,
-
-  /**
-   * Specify an optional className to be added to your Button.
-   * Spécifiez une className optionnelle à ajouter à votre bouton.
-   */
-  className: PropTypes.string,
-
-  /**
-   * Specify whether the Button should be disabled, or not.
-   * Spécifiez si le bouton doit être désactivé ou non.
-   */
-  disabled: PropTypes.bool,
-
-  /**
-   * Specify if the button is an icon-only button.
-   * Spécifiez si le bouton est un bouton avec icône uniquement.
-   */
-  hasIconOnly: PropTypes.bool,
-
-  /**
-   * Optionally specify an href for your Button to become an `<a>` element.
-   * Spécifiez éventuellement un href pour que votre bouton devienne un élément `<a>`.
-   */
-  href: PropTypes.string,
-
-  /**
-   * If specifying the `renderIcon` prop, provide a description for that icon that can be read by screen readers.
-   * Si vous spécifiez la prop `renderIcon`, fournissez une description pour cette icône qui pourra être lue par les lecteurs d'écran.
-   */
-  iconDescription: (props, propName, componentName) => {
-    const { hasIconOnly, children } = props;
-    if ((hasIconOnly || !children) && !props[propName]) {
-      return new Error(
-        `Invalid prop \`${propName}\` supplied to \`${componentName}\`. Icon-only buttons require a description. / Les boutons icône seule nécessitent une description.`
-      );
-    }
-    return null;
-  },
-
-  /**
-   * Specify the kind of Button you want to create.
-   * Spécifiez le type de bouton que vous souhaitez créer.
-   */
-  kind: PropTypes.oneOf(BUTTON_KINDS),
-
-  /**
-   * Specify the size of the button.
-   * Spécifiez la taille du bouton.
-   */
-  size: PropTypes.oneOf(BUTTON_SIZES),
-
-  /**
-   * A component used to render an icon.
-   * Un composant utilisé pour rendre une icône.
-   */
-  renderIcon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
-
-  /**
-   * Optional prop to specify the type of the Button.
-   * Prop optionnelle pour spécifier le type du bouton.
-   */
-  type: PropTypes.oneOf(['button', 'reset', 'submit']),
-};
 
 export default Button;

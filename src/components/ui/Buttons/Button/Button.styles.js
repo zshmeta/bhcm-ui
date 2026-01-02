@@ -64,7 +64,6 @@ const getSizeStyles = (size) => {
 // ============================================================================
 
 export const StyledButton = styled.button`
-  /* 1. Base Reset / Réinitialisation de base */
   font-family: inherit;
   font-weight: 600;
   display: inline-flex;
@@ -78,7 +77,6 @@ export const StyledButton = styled.button`
   border-radius: 4px; 
   box-sizing: border-box;
 
-  /* 2. Dynamic Props / Props Dynamiques */
 
   ${props => getKindStyles(props.$kind, props.theme)}
   ${props => getSizeStyles(props.$size)}
@@ -90,7 +88,6 @@ export const StyledButton = styled.button`
     width: ${props.$size === 'xs' ? '24px' : props.$size === 'lg' ? '48px' : '40px'};
   `}
 
-  /* 4. Disabled State / État Désactivé */
 
   &:disabled, &[disabled], &[aria-disabled="true"] {
     cursor: not-allowed;
@@ -101,7 +98,6 @@ export const StyledButton = styled.button`
     pointer-events: none; 
   }
 
-  /* 5. Focus State (Accessibility) / État Focus (Accessibilité) */
 
   &:focus-visible {
     box-shadow: 0 0 0 2px ${props => props.theme.colors.bg.canvas}, 0 0 0 4px ${props => props.theme.colors.action.focus};
