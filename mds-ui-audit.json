@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedAt": "2026-01-02T02:56:02.275Z",
+    "generatedAt": "2026-01-02T03:27:26.136Z",
     "totals": {
       "items": 126,
-      "goldStandard": 117,
-      "legacy": 9,
+      "goldStandard": 126,
+      "legacy": 0,
       "missing": 0
     },
     "issues": {
-      "missingGoldFiles": 23,
-      "exportMismatches": 39
+      "missingGoldFiles": 14,
+      "exportMismatches": 12
     }
   },
   "results": [
@@ -25,7 +25,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -48,8 +53,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -64,8 +74,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
-            "styles": false,
+            "styles": null,
             "skeleton": false
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -91,11 +106,15 @@
             "styles": false,
             "skeleton": false
           },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Accordion",
             "AccordionItem",
-            "AccordionProps",
             "AccordionSkeleton"
           ],
           "missingExportsInUiIndex": []
@@ -108,16 +127,18 @@
             "styles": true,
             "skeleton": true
           },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Accordion",
             "AccordionItem",
-            "AccordionProps",
             "AccordionSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "AccordionProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -132,8 +153,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": false,
           "mdsIndexExports": [],
@@ -144,8 +170,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": false,
           "mdsIndexExports": [],
@@ -165,7 +196,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -186,8 +222,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -200,8 +241,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -222,8 +268,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -238,8 +289,13 @@
           "goldFiles": {
             "index": false,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": false
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -262,8 +318,13 @@
           "goldFiles": {
             "index": false,
             "component": true,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -274,8 +335,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -297,15 +363,17 @@
             "styles": true,
             "skeleton": true
           },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Button",
-            "ButtonProps",
             "ButtonSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "ButtonProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -320,8 +388,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -345,17 +418,17 @@
             "styles": true,
             "skeleton": true
           },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "ChatButton",
-            "ChatButtonProps",
-            "ChatButtonSkeleton",
-            "ChatButtonSkeletonProps"
+            "ChatButtonSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "ChatButtonProps",
-            "ChatButtonSkeletonProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -370,8 +443,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -393,17 +471,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "CheckboxGroup",
-            "CheckboxGroupProps",
             "CustomType"
           ],
           "missingExportsInUiIndex": [
-            "CheckboxGroupProps",
             "CustomType"
           ]
         }
@@ -420,8 +501,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -442,8 +528,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -465,8 +556,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -479,8 +575,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -501,17 +602,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "ComboButton",
-            "ComboButtonProps"
+            "ComboButton"
           ],
-          "missingExportsInUiIndex": [
-            "ComboButtonProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -527,19 +630,19 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "ModalFooter",
-            "ModalFooterProps",
-            "ModalHeader",
-            "ModalHeaderProps"
+            "ModalHeader"
           ],
-          "missingExportsInUiIndex": [
-            "ModalFooterProps",
-            "ModalHeaderProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -554,8 +657,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -577,8 +685,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -597,8 +710,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -619,8 +737,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -641,8 +764,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -663,8 +791,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -686,7 +819,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -705,8 +843,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -727,17 +870,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "DatePicker",
-            "DatePickerProps"
+            "DatePicker"
           ],
-          "missingExportsInUiIndex": [
-            "DatePickerProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -752,17 +897,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "DatePickerInput",
-            "DatePickerInputProps"
+            "DatePickerInput"
           ],
-          "missingExportsInUiIndex": [
-            "DatePickerInputProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -777,8 +924,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -797,8 +949,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -811,8 +968,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -833,18 +995,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Dropdown",
-            "DropdownProps",
             "DropdownSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "DropdownProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -859,8 +1023,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -882,8 +1051,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -904,8 +1078,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -929,8 +1108,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -961,8 +1145,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": false,
           "mdsIndexExports": [],
@@ -981,8 +1170,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -996,8 +1190,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
-            "styles": false,
+            "styles": null,
             "skeleton": false
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1019,8 +1218,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1042,8 +1246,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1064,8 +1273,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1087,8 +1301,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1112,8 +1331,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1135,20 +1359,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "FluidNumberInput",
-            "FluidNumberInputProps",
-            "FluidNumberInputSkeleton",
-            "FluidNumberInputSkeletonProps"
+            "FluidNumberInputSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "FluidNumberInputProps",
-            "FluidNumberInputSkeletonProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1163,20 +1387,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "FluidSearch",
-            "FluidSearchProps",
-            "FluidSearchSkeleton",
-            "FluidSearchSkeletonProps"
+            "FluidSearchSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "FluidSearchProps",
-            "FluidSearchSkeletonProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1191,8 +1415,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1214,8 +1443,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1239,15 +1473,18 @@
             "styles": true,
             "skeleton": true
           },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "FluidPasswordInput",
-            "FluidPasswordInputProps",
             "FluidTextInputSkeleton"
           ],
           "missingExportsInUiIndex": [
-            "FluidPasswordInput",
-            "FluidPasswordInputProps"
+            "FluidPasswordInput"
           ]
         }
       ]
@@ -1263,8 +1500,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1286,17 +1528,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "FluidTimePickerSelect",
-            "FluidTimePickerSelectProps"
+            "FluidTimePickerSelect"
           ],
-          "missingExportsInUiIndex": [
-            "FluidTimePickerSelectProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1311,8 +1555,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1333,8 +1582,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1355,8 +1609,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1378,16 +1637,18 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "FormLabel",
-            "FormLabelProps"
+            "FormLabel"
           ],
-          "missingExportsInUiIndex": [
-            "FormLabelProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1403,25 +1664,26 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Column",
             "ColumnHang",
-            "ColumnProps",
             "FlexGrid",
             "Grid",
-            "GridProps",
             "GridSettings",
             "Row"
           ],
           "missingExportsInUiIndex": [
             "Column",
             "ColumnHang",
-            "ColumnProps",
             "FlexGrid",
-            "GridProps",
             "GridSettings",
             "Row"
           ]
@@ -1439,8 +1701,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1463,7 +1730,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": false,
           "mdsIndexExports": [],
@@ -1482,8 +1754,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -1502,8 +1779,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1527,8 +1809,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1553,7 +1840,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": false,
           "mdsIndexExports": [],
@@ -1572,8 +1864,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1594,17 +1891,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "InlineCheckbox",
-            "InlineCheckboxProps"
+            "InlineCheckbox"
           ],
-          "missingExportsInUiIndex": [
-            "InlineCheckboxProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1619,17 +1918,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "InlineLoading",
-            "InlineLoadingProps"
+            "InlineLoading"
           ],
-          "missingExportsInUiIndex": [
-            "InlineLoadingProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1645,7 +1946,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1667,8 +1973,13 @@
           "goldFiles": {
             "index": true,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1682,8 +1993,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1705,8 +2021,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1720,7 +2041,7 @@
     {
       "component": "Link",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/Link.md",
       "candidates": [
         {
@@ -1728,17 +2049,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "Link",
-            "LinkProps"
+            "Link"
           ],
-          "missingExportsInUiIndex": [
-            "LinkProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -1753,8 +2076,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -1773,8 +2101,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1795,13 +2128,17 @@
           "goldFiles": {
             "index": false,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "Loading",
-            "LoadingProps"
+            "Loading"
           ],
           "missingExportsInUiIndex": []
         },
@@ -1810,24 +2147,26 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "Loading",
-            "LoadingProps"
+            "Loading"
           ],
-          "missingExportsInUiIndex": [
-            "LoadingProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
     {
       "component": "Menu",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/Menu.md",
       "candidates": [
         {
@@ -1835,8 +2174,13 @@
           "goldFiles": {
             "index": true,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -1847,8 +2191,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": false
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -1867,8 +2216,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1890,19 +2244,20 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Modal",
-            "ModalPresence",
-            "ModalPresenceProps",
-            "ModalProps"
+            "ModalPresence"
           ],
           "missingExportsInUiIndex": [
-            "ModalPresence",
-            "ModalPresenceProps",
-            "ModalProps"
+            "ModalPresence"
           ]
         }
       ]
@@ -1918,8 +2273,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -1940,8 +2300,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -1952,16 +2317,21 @@
     {
       "component": "Notification",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/Notification.md",
       "candidates": [
         {
           "dir": "src/components/ui/Feedback/Notification",
           "goldFiles": {
             "index": true,
-            "component": false,
-            "styles": true,
-            "skeleton": false
+            "component": true,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -1980,8 +2350,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2002,8 +2377,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2016,7 +2396,7 @@
     {
       "component": "OverflowMenu",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/OverflowMenu.md",
       "candidates": [
         {
@@ -2024,17 +2404,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": false
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "OverflowMenu",
-            "OverflowMenuProps"
+            "OverflowMenu"
           ],
-          "missingExportsInUiIndex": [
-            "OverflowMenuProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2049,8 +2431,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2063,7 +2450,7 @@
     {
       "component": "OverflowMenuV2",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/OverflowMenuV2.md",
       "candidates": [
         {
@@ -2071,8 +2458,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2093,8 +2485,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -2105,7 +2502,7 @@
     {
       "component": "Pagination",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/Pagination.md",
       "candidates": [
         {
@@ -2113,8 +2510,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
+            "styles": null,
+            "skeleton": true
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2127,7 +2529,7 @@
     {
       "component": "PaginationNav",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/PaginationNav.md",
       "candidates": [
         {
@@ -2135,8 +2537,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2157,8 +2564,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2183,7 +2595,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": false,
           "mdsIndexExports": [],
@@ -2203,7 +2620,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2225,8 +2647,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2247,8 +2674,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2269,17 +2701,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "ProgressBar",
-            "ProgressBarProps"
+            "ProgressBar"
           ],
-          "missingExportsInUiIndex": [
-            "ProgressBarProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2294,19 +2728,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "ProgressIndicatorProps",
-            "ProgressIndicatorSkeleton",
-            "ProgressStepProps"
+            "ProgressIndicatorSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "ProgressIndicatorProps",
-            "ProgressStepProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2321,8 +2755,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2343,8 +2782,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2365,8 +2809,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2387,8 +2836,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2410,8 +2864,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2432,8 +2891,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2455,8 +2919,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2477,8 +2946,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2499,8 +2973,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2524,8 +3003,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2546,8 +3030,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2568,8 +3057,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2590,8 +3084,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2613,8 +3112,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -2633,16 +3137,17 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
           },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
-          "mdsIndexExports": [
-            "StructuredListWrapperProps"
-          ],
-          "missingExportsInUiIndex": [
-            "StructuredListWrapperProps"
-          ]
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2657,18 +3162,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "IconSwitch",
-            "Switch",
-            "SwitchProps"
+            "Switch"
           ],
-          "missingExportsInUiIndex": [
-            "SwitchProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2683,17 +3190,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "Tab",
-            "TabProps"
+            "Tab"
           ],
-          "missingExportsInUiIndex": [
-            "TabProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2708,17 +3217,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "TabContent",
-            "TabContentProps"
+            "TabContent"
           ],
-          "missingExportsInUiIndex": [
-            "TabContentProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2733,8 +3244,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
-            "styles": false,
+            "styles": null,
             "skeleton": false
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2747,8 +3263,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2771,6 +3292,11 @@
             "component": true,
             "styles": true,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2798,8 +3324,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -2810,8 +3341,13 @@
           "goldFiles": {
             "index": false,
             "component": false,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
             "styles": false,
-            "skeleton": false
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -2830,18 +3366,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "TextArea",
-            "TextAreaProps",
             "TextAreaSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "TextAreaProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2856,20 +3394,20 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "TextInput",
-            "TextInputProps",
-            "TextInputSkeleton",
-            "TextInputSkeletonProps"
+            "TextInputSkeleton"
           ],
-          "missingExportsInUiIndex": [
-            "TextInputProps",
-            "TextInputSkeletonProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -2885,7 +3423,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2913,7 +3456,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -2932,8 +3480,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -2952,8 +3505,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2974,8 +3532,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -2999,6 +3562,11 @@
             "styles": true,
             "skeleton": true
           },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": true,
+            "componentEntry": true
+          },
           "mdsIndexFound": true,
           "mdsIndexExports": [
             "Toggle"
@@ -3018,8 +3586,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
+            "styles": null,
             "skeleton": true
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": true,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -3038,8 +3611,13 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -3065,7 +3643,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": true
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [],
@@ -3076,7 +3659,7 @@
     {
       "component": "TreeView",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/TreeView.md",
       "candidates": [
         {
@@ -3085,7 +3668,12 @@
             "index": true,
             "component": true,
             "styles": true,
-            "skeleton": false
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": true,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -3099,16 +3687,21 @@
     {
       "component": "UIShell",
       "coveredBy": null,
-      "status": "legacy",
+      "status": "gold-standard",
       "mdsFile": "src/components/mds/UIShell.md",
       "candidates": [
         {
           "dir": "src/components/ui/Navigation/UIShell",
           "goldFiles": {
             "index": true,
-            "component": false,
-            "styles": true,
-            "skeleton": false
+            "component": null,
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": false
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
@@ -3118,7 +3711,6 @@
             "HeaderGlobalBar",
             "HeaderMenu",
             "HeaderName",
-            "HeaderNameProps",
             "HeaderPanel",
             "SideNav",
             "SideNavDetails",
@@ -3132,16 +3724,12 @@
             "SideNavLinkText",
             "SideNavMenu",
             "SideNavMenuItem",
-            "SideNavProps",
             "SideNavSwitcher",
             "Switcher",
             "SwitcherDivider",
             "SwitcherItem"
           ],
-          "missingExportsInUiIndex": [
-            "HeaderNameProps",
-            "SideNavProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     },
@@ -3156,17 +3744,19 @@
           "goldFiles": {
             "index": true,
             "component": true,
-            "styles": true,
-            "skeleton": true
+            "styles": null,
+            "skeleton": null
+          },
+          "requiredByMds": {
+            "styles": false,
+            "skeleton": false,
+            "componentEntry": true
           },
           "mdsIndexFound": true,
           "mdsIndexExports": [
-            "UnorderedList",
-            "UnorderedListProps"
+            "UnorderedList"
           ],
-          "missingExportsInUiIndex": [
-            "UnorderedListProps"
-          ]
+          "missingExportsInUiIndex": []
         }
       ]
     }

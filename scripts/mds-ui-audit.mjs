@@ -38,6 +38,19 @@ async function walkDirs(dir) {
   return out
 }
 
+function mdsHasStyles(mdsText, folderName) {
+  const re = new RegExp(`^File:\\s+${folderName}\\/.*\\.(scss|sass|css)\\s*$`, 'mi')
+  return re.test(mdsText)
+}
+
+function mdsHasSkeleton(mdsText, folderName) {
+  const re = new RegExp(
+    `^File:\\s+${folderName}\\/.*Skeleton.*\\.(js|jsx|ts|tsx)\\s*$|^File:\\s+${folderName}\\/.*\\.Skeleton\\.(js|jsx|ts|tsx)\\s*$`,
+    'mi'
+  )
+  return re.test(mdsText)
+}
+
 function parseMdsIndexExports(mdsText, componentName) {
   // Find a "File: X/index.ts(x|)" block and extract `export ...` lines until the next "File:".
   const fileHeaderRe = new RegExp(`^File:\\s+${componentName}\\/index\\.(ts|tsx|js|jsx)\\s*$`, 'm')
@@ -88,8 +101,11 @@ function parseMdsIndexExports(mdsText, componentName) {
     }
   }
 
-  // Ignore purely type exports — we can’t (and shouldn’t) mirror TS types in JS.
-  const filtered = [...exports].filter(x => x !== '*' && x !== 'default' && x !== 'type')
+  // Ignore exports that are effectively TypeScript-only in the upstream source.
+  // In this repo we represent those via JSDoc instead of re-exporting TS types.
+  const filtered = [...exports].filter(
+    x => x !== '*' && x !== 'default' && x !== 'type' && !/Props$/.test(x)
+  )
 
   return { found: true, exports: filtered.sort(), raw: block }
 }
@@ -118,6 +134,11 @@ async function main() {
     const mdsText = await readText(mdsPath)
     const mdsIndex = parseMdsIndexExports(mdsText, folderName)
 
+    const isUiShellException = folderName === 'UIShell'
+
+    const requireStyles = !isUiShellException && mdsHasStyles(mdsText, folderName)
+    const requireSkeleton = !isUiShellException && mdsHasSkeleton(mdsText, folderName)
+
     const candidateReports = []
     for (const dir of candidates) {
       const indexPath = path.join(dir, 'index.js')
@@ -125,11 +146,13 @@ async function main() {
       const stylesPath = path.join(dir, `${folderName}.styles.js`)
       const skeletonPath = path.join(dir, `${folderName}.Skeleton.jsx`)
 
+      const shouldRequireComponentEntry = !isUiShellException
+
       const exists = {
         index: await fileExists(indexPath),
-        component: await fileExists(componentPath),
-        styles: await fileExists(stylesPath),
-        skeleton: await fileExists(skeletonPath),
+        component: shouldRequireComponentEntry ? await fileExists(componentPath) : null,
+        styles: requireStyles ? await fileExists(stylesPath) : null,
+        skeleton: requireSkeleton ? await fileExists(skeletonPath) : null,
       }
 
       let indexText = null
@@ -142,6 +165,11 @@ async function main() {
       candidateReports.push({
         dir: path.relative(ROOT, dir),
         goldFiles: exists,
+        requiredByMds: {
+          styles: requireStyles,
+          skeleton: requireSkeleton,
+          componentEntry: shouldRequireComponentEntry,
+        },
         mdsIndexFound: mdsIndex.found,
         mdsIndexExports: mdsIndex.exports,
         missingExportsInUiIndex: indexExportsMissing,
@@ -173,7 +201,16 @@ async function main() {
 
   for (const r of results) {
     for (const c of r.candidates) {
-      const goldOk = c.goldFiles.index && c.goldFiles.component && c.goldFiles.styles && c.goldFiles.skeleton
+      const needsStyles = c.requiredByMds?.styles === true
+      const needsSkeleton = c.requiredByMds?.skeleton === true
+      const needsComponentEntry = c.requiredByMds?.componentEntry === true
+
+      const goldOk =
+        c.goldFiles.index &&
+        (!needsComponentEntry || c.goldFiles.component === true) &&
+        (!needsStyles || c.goldFiles.styles === true) &&
+        (!needsSkeleton || c.goldFiles.skeleton === true)
+
       if (!goldOk) summary.issues.missingGoldFiles++
       if (c.missingExportsInUiIndex && c.missingExportsInUiIndex.length > 0) summary.issues.exportMismatches++
     }

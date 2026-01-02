@@ -30,13 +30,29 @@ async function walkDirs(dir) {
   return out
 }
 
-async function hasGoldStandardFiles(componentDir, componentName) {
-  const required = [
-    'index.js',
-    `${componentName}.jsx`,
-    `${componentName}.styles.js`,
-    `${componentName}.Skeleton.jsx`,
-  ]
+function mdsHasStyles(mdsText, folderName) {
+  // Detect embedded legacy style sources in the markdown.
+  // We treat presence of .scss/.sass/.css as “styling exists in original code”.
+  const re = new RegExp(`^File:\\s+${folderName}\\/.*\\.(scss|sass|css)\\s*$`, 'mi')
+  return re.test(mdsText)
+}
+
+function mdsHasSkeleton(mdsText, folderName) {
+  // Detect embedded skeleton sources in the markdown.
+  // Carbon commonly uses <Component>Skeleton.tsx, etc.
+  const re = new RegExp(
+    `^File:\\s+${folderName}\\/.*Skeleton.*\\.(js|jsx|ts|tsx)\\s*$|^File:\\s+${folderName}\\/.*\\.Skeleton\\.(js|jsx|ts|tsx)\\s*$`,
+    'mi'
+  )
+  return re.test(mdsText)
+}
+
+async function hasGoldStandardFiles(componentDir, componentName, { requireStyles, requireSkeleton }) {
+  const isUiShellException = componentName === 'UIShell'
+  const required = isUiShellException ? ['index.js'] : ['index.js', `${componentName}.jsx`]
+
+  if (requireStyles) required.push(`${componentName}.styles.js`)
+  if (requireSkeleton) required.push(`${componentName}.Skeleton.jsx`)
 
   try {
     const entries = await fs.readdir(componentDir)
@@ -70,6 +86,11 @@ async function main() {
     const coveredBy = COVERS[m.name]
     const nameToCheck = coveredBy || m.name
 
+    // Read the markdown once so we can infer which legacy artifacts existed.
+    const mdsText = await fs.readFile(path.join(MDS_DIR, `${m.name}.md`), 'utf8')
+    const requireStyles = mdsHasStyles(mdsText, nameToCheck)
+    const requireSkeleton = mdsHasSkeleton(mdsText, nameToCheck)
+
     const candidates = candidatesByName.get(nameToCheck) || []
     const hasAnyFolder = candidates.length > 0
     let gold = false
@@ -77,8 +98,7 @@ async function main() {
     for (const d of candidates) {
       // Gold standard means the folder matches the required 4-file structure.
       // This intentionally distinguishes legacy/non-standard `ui` folders.
-      // eslint-disable-next-line no-await-in-loop
-      if (await hasGoldStandardFiles(d, nameToCheck)) {
+      if (await hasGoldStandardFiles(d, nameToCheck, { requireStyles, requireSkeleton })) {
         gold = true
         break
       }

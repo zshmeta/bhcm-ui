@@ -51,7 +51,17 @@ export default function SideNav({
 				$rail={isRail}
 				$fixed={isFixedNav}
 			>
-				{withExpanded(children, expanded)}
+				{withExpanded(
+					Children.map(children, child => {
+						if (!isValidElement(child)) return child
+						const typeName = child.type?.displayName || child.type?.name
+						if (typeName && CARBON_SIDENAV_ITEMS.includes(typeName)) {
+							return cloneElement(child, { isRail })
+						}
+						return child
+					}),
+					expanded
+				)}
 			</SideNavNav>
 		</>
 	)

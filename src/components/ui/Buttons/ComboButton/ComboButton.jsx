@@ -39,7 +39,7 @@ function getFocusableMenuItems(menuEl) {
   return Array.from(menuEl.querySelectorAll('[role="menuitem"]')).filter(el => !el.hasAttribute('aria-disabled'))
 }
 
-export default forwardRef(function ComboButton(
+const ComboButton = forwardRef(function ComboButton(
   {
     children,
     className,
@@ -317,3 +317,5 @@ ComboButton.propTypes = {
   tooltipAlignment: PropTypes.string,
   translateWithId: PropTypes.func,
 }
+
+export default ComboButton

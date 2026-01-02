@@ -22,7 +22,7 @@ import {
   StyledTitle,
 } from './Dialog.styles'
 import Portal from '../Portal'
-import Button from '../../ui/Buttons/Button' // fallback path if used outside barrel
+import Button from '../../Buttons/Button'
 
 // Button import path compatibility: prefer barrel if available.
 // eslint-disable-next-line no-unused-vars

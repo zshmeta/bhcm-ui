@@ -1,10 +1,6 @@
 import React, { forwardRef } from 'react'
 import PropTypes from 'prop-types'
-import { useClassPrefix } from '../../System/ClassPrefix'
-
-function cx(...xs) {
-  return xs.filter(Boolean).join(' ')
-}
+import { StyledLink, StyledLinkIcon } from './Link.styles'
 
 const Link = forwardRef(function Link(
   {
@@ -22,16 +18,14 @@ const Link = forwardRef(function Link(
   },
   ref
 ) {
-  const prefix = useClassPrefix()
-
-  const className = cx(`${prefix}--link`, customClassName, disabled && `${prefix}--link--disabled`, inline && `${prefix}--link--inline`, visited && `${prefix}--link--visited`, size && `${prefix}--link--${size}`)
-
   const rel = target === '_blank' ? 'noopener' : undefined
 
+  const Component = BaseComponent ?? 'a'
+
   const linkProps = {
-    className,
     rel,
     target,
+    className: customClassName,
   }
 
   // Disabled link semantics: no href, role=link, aria-disabled.
@@ -41,8 +35,6 @@ const Link = forwardRef(function Link(
     linkProps.role = 'link'
     linkProps['aria-disabled'] = true
   }
-
-  const Component = BaseComponent ?? 'a'
 
   const handleOnClick = event => {
     if (disabled) {
@@ -58,14 +50,24 @@ const Link = forwardRef(function Link(
   }
 
   return (
-    <Component ref={ref} {...linkProps} {...rest} onClick={handleOnClick}>
+    <StyledLink
+      as={Component}
+      ref={ref}
+      {...linkProps}
+      {...rest}
+      onClick={handleOnClick}
+      $disabled={disabled}
+      $inline={inline}
+      $visited={visited}
+      $size={size}
+    >
       {children}
       {!inline && Icon && (
-        <div className={`${prefix}--link__icon`}>
-          <Icon />
-        </div>
+        <StyledLinkIcon aria-hidden="true">
+          <Icon aria-hidden="true" focusable="false" />
+        </StyledLinkIcon>
       )}
-    </Component>
+    </StyledLink>
   )
 })
 
@@ -85,3 +87,4 @@ Link.propTypes = {
 }
 
 export default Link
+

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-02T02:56:01.707Z",
+  "generatedAt": "2026-01-02T03:27:25.634Z",
   "notes": "Tracks migration status for each src/components/mds/*.md file. Status values: missing | legacy | gold-standard. `coveredBy` indicates the implementation lives in another component folder.",
   "items": [
     {
@@ -402,7 +402,7 @@
       "mdsFile": "src/components/mds/Link.md",
       "component": "Link",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/ListBox.md",
@@ -426,7 +426,7 @@
       "mdsFile": "src/components/mds/Menu.md",
       "component": "Menu",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/MenuButton.md",
@@ -456,7 +456,7 @@
       "mdsFile": "src/components/mds/Notification.md",
       "component": "Notification",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/NumberInput.md",
@@ -474,7 +474,7 @@
       "mdsFile": "src/components/mds/OverflowMenu.md",
       "component": "OverflowMenu",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/OverflowMenuItem.md",
@@ -486,7 +486,7 @@
       "mdsFile": "src/components/mds/OverflowMenuV2.md",
       "component": "OverflowMenuV2",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/PageHeader.md",
@@ -498,13 +498,13 @@
       "mdsFile": "src/components/mds/Pagination.md",
       "component": "Pagination",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/PaginationNav.md",
       "component": "PaginationNav",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/PasswordInput.md",
@@ -744,13 +744,13 @@
       "mdsFile": "src/components/mds/TreeView.md",
       "component": "TreeView",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/UIShell.md",
       "component": "UIShell",
       "coveredBy": null,
-      "status": "legacy"
+      "status": "gold-standard"
     },
     {
       "mdsFile": "src/components/mds/UnorderedList.md",

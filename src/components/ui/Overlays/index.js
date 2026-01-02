@@ -2,7 +2,7 @@
 // Export components from subfolders here.
 
 export { default as ComposedModal } from './ComposedModal'
-export { ModalHeader, ModalBody, ModalFooter, ComposedModalSkeleton } from './ComposedModal'
+export { ComposedModalSkeleton } from './ComposedModal'
 
 export { default as Portal } from './Portal'
 export { PortalSkeleton } from './Portal'

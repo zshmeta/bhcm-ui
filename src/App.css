@@ -1,42 +1,94 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 24px;
+  text-align: left;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.galleryRoot {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.galleryHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.galleryTitle {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
 }
 
-.card {
-  padding: 2em;
+.galleryMeta {
+  display: flex;
+  gap: 8px;
+  opacity: 0.8;
 }
 
-.read-the-docs {
-  color: #888;
+.galleryMain {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.groupSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.groupTitle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.componentGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.componentCard {
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.componentCardHeader {
+  padding: 10px 12px;
+  border-bottom: 1px solid currentColor;
+}
+
+.componentName {
+  font-weight: 600;
+}
+
+.componentPreview {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 56px;
+}
+
+.componentError {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 0.9;
+}
+
+.componentErrorTitle {
+  font-weight: 600;
+}
+
+.componentErrorMessage {
+  font-size: 12px;
+  word-break: break-word;
 }

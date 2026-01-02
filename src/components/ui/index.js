@@ -1,4 +1,4 @@
-// 🟢 Main Barrel: exports * from './Inputs', etc.
+// Main Barrel: exports * from './Inputs', etc.
 
 export * from './Inputs'
 export * from './Buttons'

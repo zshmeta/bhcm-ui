@@ -55,7 +55,7 @@ function randomId() {
   return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`
 }
 
-export default forwardRef(function FileUploader(
+const FileUploader = forwardRef(function FileUploader(
   {
     accept,
     buttonKind, // accepted for API-compat; styling is handled internally
@@ -362,3 +362,5 @@ FileUploader.propTypes = {
   onDelete: PropTypes.func,
   size: PropTypes.oneOf(['sm', 'small', 'md', 'field', 'lg']),
 }
+
+export default FileUploader

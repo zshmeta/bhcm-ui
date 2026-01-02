@@ -18,7 +18,7 @@ function isIconOnlyChild(child) {
   return name === 'IconSwitch'
 }
 
-export default forwardRef(function ContentSwitcher(
+const ContentSwitcher = forwardRef(function ContentSwitcher(
   {
     children,
     className,
@@ -159,3 +159,5 @@ ContentSwitcher.propTypes = {
   selectionMode: PropTypes.oneOf(['automatic', 'manual']),
   size: PropTypes.oneOf(sizes),
 }
+
+export default ContentSwitcher
