@@ -1,0 +1,54 @@
+{
+  "legacyInTracker": 75,
+  "alreadyGoldOnDisk": 28,
+  "stillLegacyOnDisk": 47
+}
+
+Still legacy on disk:
+- FluidNumberInput
+- FluidTextArea
+- Grid
+- Heading
+- HideAtBreakpoint
+- IconIndicator
+- InlineLoading
+- Layer
+- Layout
+- LayoutDirection
+- Link
+- ListBox
+- ListItem
+- Loading
+- Menu
+- MultiSelect
+- Notification
+- OrderedList
+- OverflowMenu
+- OverflowMenuV2
+- Pagination
+- PaginationNav
+- PasswordInput
+- ProgressBar
+- RadioButton
+- RadioButtonGroup
+- RadioTile
+- SelectItem
+- SelectItemGroup
+- SkeletonIcon
+- SkeletonPlaceholder
+- SkeletonText
+- Slider
+- Stack
+- StructuredList
+- Switch
+- Tag
+- Text
+- Tile
+- TileGroup
+- TimePicker
+- TimePickerSelect
+- Toggle
+- ToggleSmall
+- TreeView
+- UIShell
+- UnorderedList

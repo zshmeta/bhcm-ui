@@ -1,13 +1,9 @@
-import { createContext, useEffect, useMemo, useState } from 'react'
-import { ensureTabsStyles } from './Tabs.styles'
+import { createContext, useMemo, useState } from 'react'
+import { StyledTabsRoot } from './Tabs.styles'
 
 export const TabsContext = createContext(null)
 
 export default function Tabs({ value, defaultValue, onValueChange, children, className }) {
-  useEffect(() => {
-    ensureTabsStyles()
-  }, [])
-
   const [uncontrolledValue, setUncontrolledValue] = useState(defaultValue)
   const isControlled = value !== undefined
   const activeValue = isControlled ? value : uncontrolledValue
@@ -23,8 +19,8 @@ export default function Tabs({ value, defaultValue, onValueChange, children, cla
   }, [activeValue, isControlled, onValueChange])
 
   return (
-    <div className={className ?? 'bhcm-tabs'}>
+    <StyledTabsRoot className={className}>
       <TabsContext.Provider value={api}>{children}</TabsContext.Provider>
-    </div>
+    </StyledTabsRoot>
   )
 }

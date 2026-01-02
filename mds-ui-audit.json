@@ -1,0 +1,3174 @@
+{
+  "summary": {
+    "generatedAt": "2026-01-02T02:56:02.275Z",
+    "totals": {
+      "items": 126,
+      "goldStandard": 117,
+      "legacy": 9,
+      "missing": 0
+    },
+    "issues": {
+      "missingGoldFiles": 23,
+      "exportMismatches": 39
+    }
+  },
+  "results": [
+    {
+      "component": "AILabel",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/AILabel.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/AILabel",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "AILabel",
+            "AILabelActions",
+            "AILabelContent"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "AISkeleton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/AISkeleton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/AISkeleton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "AISkeletonIcon",
+            "AISkeletonPlaceholder",
+            "AISkeletonText"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Feedback/Skeleton/AISkeleton",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "AISkeletonIcon",
+            "AISkeletonPlaceholder",
+            "AISkeletonText"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Accordion",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Accordion.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Accordion",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Accordion",
+            "AccordionItem",
+            "AccordionProps",
+            "AccordionSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Navigation/Accordion",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Accordion",
+            "AccordionItem",
+            "AccordionProps",
+            "AccordionSkeleton"
+          ],
+          "missingExportsInUiIndex": [
+            "AccordionProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "AccordionItem",
+      "coveredBy": "Accordion",
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/AccordionItem.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Accordion",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": false,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Navigation/Accordion",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": false,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "AspectRatio",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/AspectRatio.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/AspectRatio",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "AspectRatio"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "BadgeIndicator",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/BadgeIndicator.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/BadgeIndicator",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "BadgeIndicator"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/DataDisplay/Status/BadgeIndicator",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "BadgeIndicator"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Breadcrumb",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Breadcrumb.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Breadcrumb",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Breadcrumb",
+            "BreadcrumbItem",
+            "BreadcrumbSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Navigation/Breadcrumb/Breadcrumb",
+          "goldFiles": {
+            "index": false,
+            "component": true,
+            "styles": true,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Breadcrumb",
+            "BreadcrumbItem",
+            "BreadcrumbSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "BreadcrumbItem",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/BreadcrumbItem.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Breadcrumb/BreadcrumbItem",
+          "goldFiles": {
+            "index": false,
+            "component": true,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Navigation/BreadcrumbItem",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Button",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Button.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/Button",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Button",
+            "ButtonProps",
+            "ButtonSkeleton"
+          ],
+          "missingExportsInUiIndex": [
+            "ButtonProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ButtonSet",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ButtonSet.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/ButtonSet",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ButtonSet"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ChatButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ChatButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/ChatButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ChatButton",
+            "ChatButtonProps",
+            "ChatButtonSkeleton",
+            "ChatButtonSkeletonProps"
+          ],
+          "missingExportsInUiIndex": [
+            "ChatButtonProps",
+            "ChatButtonSkeletonProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Checkbox",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Checkbox.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/Checkbox",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Checkbox",
+            "CheckboxSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "CheckboxGroup",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/CheckboxGroup.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/CheckboxGroup",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "CheckboxGroup",
+            "CheckboxGroupProps",
+            "CustomType"
+          ],
+          "missingExportsInUiIndex": [
+            "CheckboxGroupProps",
+            "CustomType"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ClassPrefix",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ClassPrefix.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/ClassPrefix",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ClassPrefix"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "CodeSnippet",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/CodeSnippet.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/CodeSnippet",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "CodeSnippet",
+            "CodeSnippetSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ComboBox",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ComboBox.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/ComboBox",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ComboBox"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Inputs/Selection/ComboBox",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ComboBox"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ComboButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ComboButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/ComboButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ComboButton",
+            "ComboButtonProps"
+          ],
+          "missingExportsInUiIndex": [
+            "ComboButtonProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ComposedModal",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ComposedModal.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/ComposedModal",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ModalFooter",
+            "ModalFooterProps",
+            "ModalHeader",
+            "ModalHeaderProps"
+          ],
+          "missingExportsInUiIndex": [
+            "ModalFooterProps",
+            "ModalHeaderProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ContainedList",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ContainedList.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/List/ContainedList",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ContainedList",
+            "ContainedListItem"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ContentSwitcher",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ContentSwitcher.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Selection/ContentSwitcher",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ContextMenu",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ContextMenu.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/ContextMenu",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "useContextMenu"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Copy",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Copy.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Copy",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Copy"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "CopyButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/CopyButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/CopyButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "CopyButton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "DangerButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/DangerButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/DangerButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "DangerButton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "DataTable",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/DataTable.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Table/DataTable",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "DataTableSkeleton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/DataTableSkeleton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Table/DataTableSkeleton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "DataTableSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "DatePicker",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/DatePicker.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Date/DatePicker",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "DatePicker",
+            "DatePickerProps"
+          ],
+          "missingExportsInUiIndex": [
+            "DatePickerProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "DatePickerInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/DatePickerInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Date/DatePickerInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "DatePickerInput",
+            "DatePickerInputProps"
+          ],
+          "missingExportsInUiIndex": [
+            "DatePickerInputProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Dialog",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Dialog.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/Dialog",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Disclosure",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Disclosure.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Disclosure",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "useDisclosure"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Overlays/Disclosure",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "useDisclosure"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Dropdown",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Dropdown.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Selection/Dropdown",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Dropdown",
+            "DropdownProps",
+            "DropdownSkeleton"
+          ],
+          "missingExportsInUiIndex": [
+            "DropdownProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ErrorBoundary",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ErrorBoundary.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/ErrorBoundary",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ErrorBoundary",
+            "ErrorBoundaryContext"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ExpandableSearch",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ExpandableSearch.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Text/ExpandableSearch",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ExpandableSearch"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FeatureFlags",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FeatureFlags.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/FeatureFlags",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FeatureFlagContext",
+            "FeatureFlags",
+            "useFeatureFlag",
+            "useFeatureFlags"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FileUploader",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FileUploader.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/File/FileUploader",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FileUploader",
+            "FileUploaderButton",
+            "FileUploaderDropContainer",
+            "FileUploaderItem",
+            "FileUploaderSkeleton",
+            "Filename"
+          ],
+          "missingExportsInUiIndex": [
+            "FileUploaderButton",
+            "FileUploaderDropContainer",
+            "FileUploaderItem",
+            "Filename"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "FlexGrid",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FlexGrid.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/FlexGrid",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": false,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidComboBox",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidComboBox.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidComboBox",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidComboBox",
+            "FluidComboBoxSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Inputs/Selection/FluidComboBox",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidComboBox",
+            "FluidComboBoxSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidDatePicker",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidDatePicker.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidDatePicker",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidDatePicker",
+            "FluidDatePickerSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidDatePickerInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidDatePickerInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidDatePickerInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidDatePickerInput"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidDropdown",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidDropdown.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidDropdown",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidDropdown",
+            "FluidDropdownSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidForm",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidForm.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidForm",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidForm",
+            "FormContext"
+          ],
+          "missingExportsInUiIndex": [
+            "FormContext"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "FluidMultiSelect",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidMultiSelect.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidMultiSelect",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidMultiSelect",
+            "FluidMultiSelectSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidNumberInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidNumberInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidNumberInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidNumberInput",
+            "FluidNumberInputProps",
+            "FluidNumberInputSkeleton",
+            "FluidNumberInputSkeletonProps"
+          ],
+          "missingExportsInUiIndex": [
+            "FluidNumberInputProps",
+            "FluidNumberInputSkeletonProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "FluidSearch",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidSearch.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidSearch",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidSearch",
+            "FluidSearchProps",
+            "FluidSearchSkeleton",
+            "FluidSearchSkeletonProps"
+          ],
+          "missingExportsInUiIndex": [
+            "FluidSearchProps",
+            "FluidSearchSkeletonProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "FluidSelect",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidSelect.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidSelect",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidSelect",
+            "FluidSelectSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidTextArea",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidTextArea.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidTextArea",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidTextAreaSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidTextInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidTextInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidTextInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidPasswordInput",
+            "FluidPasswordInputProps",
+            "FluidTextInputSkeleton"
+          ],
+          "missingExportsInUiIndex": [
+            "FluidPasswordInput",
+            "FluidPasswordInputProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "FluidTimePicker",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidTimePicker.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidTimePicker",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidTimePicker",
+            "FluidTimePickerSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FluidTimePickerSelect",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FluidTimePickerSelect.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Fluid/FluidTimePickerSelect",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FluidTimePickerSelect",
+            "FluidTimePickerSelectProps"
+          ],
+          "missingExportsInUiIndex": [
+            "FluidTimePickerSelectProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Form",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Form.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/FormWrapper/Form",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Form"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FormGroup",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FormGroup.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/FormWrapper/FormGroup",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FormGroup"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FormItem",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FormItem.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/FormWrapper/FormItem",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FormItem"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "FormLabel",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/FormLabel.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/FormWrapper/FormLabel",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "FormLabel",
+            "FormLabelProps"
+          ],
+          "missingExportsInUiIndex": [
+            "FormLabelProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Grid",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Grid.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/Grid",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Column",
+            "ColumnHang",
+            "ColumnProps",
+            "FlexGrid",
+            "Grid",
+            "GridProps",
+            "GridSettings",
+            "Row"
+          ],
+          "missingExportsInUiIndex": [
+            "Column",
+            "ColumnHang",
+            "ColumnProps",
+            "FlexGrid",
+            "GridProps",
+            "GridSettings",
+            "Row"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Heading",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Heading.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/Heading",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Heading",
+            "Section"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "HideAtBreakpoint",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/HideAtBreakpoint.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/HideAtBreakpoint",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": false,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Icon",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Icon.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/Icon",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "IconButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/IconButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/IconButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "IconButton",
+            "IconButtonKinds"
+          ],
+          "missingExportsInUiIndex": [
+            "IconButtonKinds"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "IconIndicator",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/IconIndicator.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Status/IconIndicator",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "IconIndicator",
+            "IconIndicatorKinds"
+          ],
+          "missingExportsInUiIndex": [
+            "IconIndicatorKinds"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Icons",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Icons.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/Icons",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": false,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "IdPrefix",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/IdPrefix.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/IdPrefix",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "IdPrefix"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "InlineCheckbox",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/InlineCheckbox.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/InlineCheckbox",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "InlineCheckbox",
+            "InlineCheckboxProps"
+          ],
+          "missingExportsInUiIndex": [
+            "InlineCheckboxProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "InlineLoading",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/InlineLoading.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Loading/InlineLoading",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "InlineLoading",
+            "InlineLoadingProps"
+          ],
+          "missingExportsInUiIndex": [
+            "InlineLoadingProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Layer",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Layer.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/Layer",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Layer",
+            "useLayer"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Layout",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Layout.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout",
+          "goldFiles": {
+            "index": true,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Layout",
+            "LayoutConstraint"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Layout/Layout",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Layout",
+            "LayoutConstraint"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "LayoutDirection",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/LayoutDirection.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/LayoutDirection",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "LayoutDirection",
+            "useLayoutDirection"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Link",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/Link.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Link",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Link",
+            "LinkProps"
+          ],
+          "missingExportsInUiIndex": [
+            "LinkProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ListBox",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ListBox.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/List/ListBox",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ListItem",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ListItem.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/List/ListItem",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ListItem"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Loading",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Loading.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Loading",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Loading",
+            "LoadingProps"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Feedback/Loading/Loading",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Loading",
+            "LoadingProps"
+          ],
+          "missingExportsInUiIndex": [
+            "LoadingProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Menu",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/Menu.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Menu",
+          "goldFiles": {
+            "index": true,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Navigation/Menu/Menu",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "MenuButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/MenuButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/MenuButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "MenuButton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Modal",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Modal.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/Modal",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Modal",
+            "ModalPresence",
+            "ModalPresenceProps",
+            "ModalProps"
+          ],
+          "missingExportsInUiIndex": [
+            "ModalPresence",
+            "ModalPresenceProps",
+            "ModalProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ModalWrapper",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ModalWrapper.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/ModalWrapper",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ModalWrapper"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "MultiSelect",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/MultiSelect.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Selection/MultiSelect",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Notification",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/Notification.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Notification",
+          "goldFiles": {
+            "index": true,
+            "component": false,
+            "styles": true,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "NumberInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/NumberInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Text/NumberInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "NumberInputSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "OrderedList",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/OrderedList.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/List/OrderedList",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "OrderedList"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "OverflowMenu",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/OverflowMenu.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Menu/OverflowMenu",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "OverflowMenu",
+            "OverflowMenuProps"
+          ],
+          "missingExportsInUiIndex": [
+            "OverflowMenuProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "OverflowMenuItem",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/OverflowMenuItem.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/OverflowMenuItem",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "OverflowMenuItem"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "OverflowMenuV2",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/OverflowMenuV2.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Menu/OverflowMenuV2",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "OverflowMenuV2"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "PageHeader",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/PageHeader.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/PageHeader",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Pagination",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/Pagination.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Pagination",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Pagination"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "PaginationNav",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/PaginationNav.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/PaginationNav",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "PaginationNav"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "PasswordInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/PasswordInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Text/PasswordInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ControlledPasswordInput",
+            "PasswordInput"
+          ],
+          "missingExportsInUiIndex": [
+            "ControlledPasswordInput"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Plex",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Plex.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/Plex",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": false,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Popover",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Popover.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/Popover",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Popover",
+            "PopoverContent"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Portal",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Portal.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/Portal",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Portal"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "PrimaryButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/PrimaryButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/PrimaryButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "PrimaryButton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ProgressBar",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ProgressBar.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Loading/ProgressBar",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ProgressBar",
+            "ProgressBarProps"
+          ],
+          "missingExportsInUiIndex": [
+            "ProgressBarProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "ProgressIndicator",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ProgressIndicator.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/ProgressIndicator",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ProgressIndicatorProps",
+            "ProgressIndicatorSkeleton",
+            "ProgressStepProps"
+          ],
+          "missingExportsInUiIndex": [
+            "ProgressIndicatorProps",
+            "ProgressStepProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "RadioButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/RadioButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/RadioButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "RadioButton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "RadioButtonGroup",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/RadioButtonGroup.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/RadioButtonGroup",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "RadioButtonGroup"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "RadioTile",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/RadioTile.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Tiles/RadioTile",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "RadioTile"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Search",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Search.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Text/Search",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Search",
+            "SearchSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "SecondaryButton",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/SecondaryButton.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Buttons/SecondaryButton",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "SecondaryButton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Select",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Select.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Selection/Select",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Select",
+            "SelectSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "SelectItem",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/SelectItem.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Selection/SelectItem",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "SelectItem"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "SelectItemGroup",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/SelectItemGroup.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Selection/SelectItemGroup",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "SelectItemGroup"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ShapeIndicator",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ShapeIndicator.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/ShapeIndicator",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "ShapeIndicator",
+            "ShapeIndicatorKinds"
+          ],
+          "missingExportsInUiIndex": [
+            "ShapeIndicatorKinds"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "SkeletonIcon",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/SkeletonIcon.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Skeleton/SkeletonIcon",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "SkeletonIcon"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "SkeletonPlaceholder",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/SkeletonPlaceholder.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Skeleton/SkeletonPlaceholder",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "SkeletonPlaceholder"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "SkeletonText",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/SkeletonText.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Feedback/Skeleton/SkeletonText",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "SkeletonText"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Slider",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Slider.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/Slider",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Slider",
+            "SliderSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Stack",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Stack.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Layout/Stack",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "StructuredList",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/StructuredList.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/List/StructuredList",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "StructuredListWrapperProps"
+          ],
+          "missingExportsInUiIndex": [
+            "StructuredListWrapperProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Switch",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Switch.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/Switch",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "IconSwitch",
+            "Switch",
+            "SwitchProps"
+          ],
+          "missingExportsInUiIndex": [
+            "SwitchProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Tab",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Tab.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Tabs/Tab",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Tab",
+            "TabProps"
+          ],
+          "missingExportsInUiIndex": [
+            "TabProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "TabContent",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/TabContent.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Tabs/TabContent",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TabContent",
+            "TabContentProps"
+          ],
+          "missingExportsInUiIndex": [
+            "TabContentProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Tabs",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Tabs.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/Tabs",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TabsSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Navigation/Tabs/Tabs",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TabsSkeleton"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Tag",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Tag.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Status/Tag",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "DismissibleTag",
+            "OperationalTag",
+            "SelectableTag",
+            "Tag"
+          ],
+          "missingExportsInUiIndex": [
+            "DismissibleTag",
+            "OperationalTag",
+            "SelectableTag"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Text",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Text.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Text",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        },
+        {
+          "dir": "src/components/ui/Inputs/Text",
+          "goldFiles": {
+            "index": false,
+            "component": false,
+            "styles": false,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "TextArea",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/TextArea.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Text/TextArea",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TextArea",
+            "TextAreaProps",
+            "TextAreaSkeleton"
+          ],
+          "missingExportsInUiIndex": [
+            "TextAreaProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "TextInput",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/TextInput.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Text/TextInput",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TextInput",
+            "TextInputProps",
+            "TextInputSkeleton",
+            "TextInputSkeletonProps"
+          ],
+          "missingExportsInUiIndex": [
+            "TextInputProps",
+            "TextInputSkeletonProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Theme",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Theme.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/System/Theme",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "GlobalTheme",
+            "Theme",
+            "ThemeContext",
+            "usePrefersDarkScheme",
+            "useTheme"
+          ],
+          "missingExportsInUiIndex": [
+            "ThemeContext"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "Tile",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Tile.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Tiles/Tile",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "TileGroup",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/TileGroup.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/Tiles/TileGroup",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "TimePicker",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/TimePicker.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Date/TimePicker",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TimePicker"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "TimePickerSelect",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/TimePickerSelect.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Date/TimePickerSelect",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TimePickerSelect"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Toggle",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Toggle.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/Toggle",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Toggle"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "ToggleSmall",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/ToggleSmall.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Inputs/Controls/ToggleSmall",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Toggletip",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Toggletip.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/Toggletip",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Toggletip",
+            "ToggletipActions",
+            "ToggletipButton",
+            "ToggletipContent",
+            "ToggletipLabel"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "Tooltip",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/Tooltip.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Overlays/Tooltip",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "TreeView",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/TreeView.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/TreeView",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "TreeNode",
+            "TreeView"
+          ],
+          "missingExportsInUiIndex": []
+        }
+      ]
+    },
+    {
+      "component": "UIShell",
+      "coveredBy": null,
+      "status": "legacy",
+      "mdsFile": "src/components/mds/UIShell.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/Navigation/UIShell",
+          "goldFiles": {
+            "index": true,
+            "component": false,
+            "styles": true,
+            "skeleton": false
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "Content",
+            "Header",
+            "HeaderGlobalAction",
+            "HeaderGlobalBar",
+            "HeaderMenu",
+            "HeaderName",
+            "HeaderNameProps",
+            "HeaderPanel",
+            "SideNav",
+            "SideNavDetails",
+            "SideNavDivider",
+            "SideNavFooter",
+            "SideNavHeader",
+            "SideNavIcon",
+            "SideNavItem",
+            "SideNavItems",
+            "SideNavLink",
+            "SideNavLinkText",
+            "SideNavMenu",
+            "SideNavMenuItem",
+            "SideNavProps",
+            "SideNavSwitcher",
+            "Switcher",
+            "SwitcherDivider",
+            "SwitcherItem"
+          ],
+          "missingExportsInUiIndex": [
+            "HeaderNameProps",
+            "SideNavProps"
+          ]
+        }
+      ]
+    },
+    {
+      "component": "UnorderedList",
+      "coveredBy": null,
+      "status": "gold-standard",
+      "mdsFile": "src/components/mds/UnorderedList.md",
+      "candidates": [
+        {
+          "dir": "src/components/ui/DataDisplay/List/UnorderedList",
+          "goldFiles": {
+            "index": true,
+            "component": true,
+            "styles": true,
+            "skeleton": true
+          },
+          "mdsIndexFound": true,
+          "mdsIndexExports": [
+            "UnorderedList",
+            "UnorderedListProps"
+          ],
+          "missingExportsInUiIndex": [
+            "UnorderedListProps"
+          ]
+        }
+      ]
+    }
+  ]
+}
